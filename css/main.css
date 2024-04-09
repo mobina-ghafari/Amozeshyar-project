@@ -1,0 +1,106 @@
+/*BODY*/
+@font-face {
+    font-family: yekan;
+    src: url(../font/iranyekanwebbold.ttf);
+}
+
+*{
+    font-family: yekan;
+    box-sizing: border-box;
+}
+
+body{
+    direction: rtl;
+    background-color: #eee;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*BODY*/
+/*NAV*/
+
+.line1 , .line2 , .line3{
+    margin: 5px 0px;
+    width: 25px;
+    height: 3px;
+    background-color: #000080;
+}
+
+.my-nav-collapse-btn{
+    border: none;
+    outline: none;
+    box-shadow: none;
+    transition: all .5s;
+}
+
+.my-nav-collapse-btn:focus{
+    border: none;
+    outline: none;
+    box-shadow: none;
+    border: solid #000080;
+}
+
+.my-nav{
+    padding: 3px 15px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.my-nav-brand-span1{
+    font-size: 20px;
+    text-align: center;
+    color: #000080;
+}
+
+.my-nav-brand-span2{
+    font-size: 10px;
+    text-align: center;
+    color: #6495ed;
+}
+.my-nav-icon-user{
+    color: #000080;
+    margin-left: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-nav-user{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-nav-user-span1{
+    color: #000080;
+}
+
+.my-nav-user-span2{
+    color: #6495ed;
+    font-size: 13px;
+}
+
+.my-nav-exit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000080;
+}
+/*NAV*/
+/*SIDEBAR*/
+
+.my-sidebar{
+    
+    
+}
+/*SIDEBAR*/
+
