@@ -99,7 +99,13 @@ a:hover{
 /*SIDEBAR*/
 
 .my-sidebar{
-    
+    position: sticky;
+    height: 85vh;
+    background-color: white;
+    background-position: center;
+    background-size: cover;
+    box-shadow: -5px 7px 25px #999;
+    border-radius: 10px;
     
 }
 /*SIDEBAR*/
