@@ -49,7 +49,7 @@
                                           </svg></div>
                                     </li>
                                 </ul>
-                                <div class="my-sidebar-nav">
+                                <div class="my-sidebar-nav ">
                                     <div class=" my-sidebar-search">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-search my-sidebar-search-icon" viewBox="0 0 16 16">
                                             <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
@@ -57,23 +57,89 @@
                                           <input type="search" placeholder="جستجو " class="my-sidebar-search-box">
                                     </div>
                                     <ul class="my-sidebar-menu">
-                                        <li class="my-sidebar-menu-li">
-                                            <a href="" class="my-sidebar-menu-a">برنامه ريزي آموزشي نيمسال تحصيلي</a>
+                                        <li>
+                                            <a href="#"  class="menu-color my-sidebar-menu-li collapsed d-block"  onclick="toggleStyle()" data-bs-toggle="collapse" data-bs-target="#collapse-menu1">برنامه ريزي آموزشي نيمسال تحصيلي</a>
+                                             <!----------under the menu-------->
+                                        <div class="collapse my-sidebar-menu-collapse" id="collapse-menu1">
+                                            <ul class="my-sidebar-menu-collapse-ul">
+                                                <li class="my-sidebar-menu-collapse-li">
+                                                    <a href="#" class="my-sidebar-menu-collapse-a">جستجوی کلاس درس های ارائه شده</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <!----------under the menu-------->
                                         </li>
-                                        <li class="my-sidebar-menu-li">
-                                            <a href="" class="my-sidebar-menu-a">ثبت نام دروس دانشجو</a>
+                                        <li>
+                                            <a href="" class="menu-color my-sidebar-menu-li collapsed d-block"  onclick="toggleStyle()" data-bs-toggle="collapse" data-bs-target="#collapse-menu2">ثبت نام دروس دانشجو</a>
+                                             <!----------under the menu-------->
+                                        <div class="collapse my-sidebar-menu-collapse" id="collapse-menu2">
+                                            <ul class="my-sidebar-menu-collapse-ul">
+                                                <li class="my-sidebar-menu-collapse-li">
+                                                    <a href="#" class="my-sidebar-menu-collapse-a">مشاهده آخرین وضعیت ثبت نام</a>
+                                                </li>
+                                                <li class="my-sidebar-menu-collapse-li mt-4">
+                                                    <a href="#" class="my-sidebar-menu-collapse-a ">مدیریت مالی نیمسال های تحصیلی دانشجو</a>
+                                                </li>
+                                                <li class="my-sidebar-menu-collapse-li mt-4">
+                                                    <a href="#" class="my-sidebar-menu-collapse-a ">مدیریت پرداخت ها</a>
+                                                </li>
+                                                <li class="my-sidebar-menu-collapse-li mt-4">
+                                                    <a href="#" class="my-sidebar-menu-collapse-a ">ارسال درخواست اعتراض به نمره در نیمسال جاری</a>
+                                                </li>
+                                                <li class="my-sidebar-menu-collapse-li mt-4">
+                                                    <a href="#" class="my-sidebar-menu-collapse-a ">مشاهده کارنامه دانشجویی</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <!----------under the menu-------->
                                         </li>
-                                        <li class="my-sidebar-menu-li">
-                                            <a href="" class="my-sidebar-menu-a">صندوق رفاه دانشجویی</a>
+                                        <li>
+                                            <a href="" class="menu-color my-sidebar-menu-li collapsed d-block"  onclick="toggleStyle()" data-bs-toggle="collapse" data-bs-target="#collapse-menu3">صندوق رفاه دانشجویی</a>
+                                             <!----------under the menu-------->
+                                        <div class="collapse my-sidebar-menu-collapse" id="collapse-menu3">
+                                            <ul class="my-sidebar-menu-collapse-ul">
+                                                <li class="my-sidebar-menu-collapse-li">
+                                                    <a href="#" class="my-sidebar-menu-collapse-a">درخواست/پیگیری تسهیلات</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <!----------under the menu-------->
                                         </li>
-                                        <li class="my-sidebar-menu-li">
-                                            <a href="" class="my-sidebar-menu-a">درخواست/مجوز</a>
+                                        <li>
+                                            <a href="" class="menu-color my-sidebar-menu-li collapsed d-block"  onclick="toggleStyle()" data-bs-toggle="collapse" data-bs-target="#collapse-menu4">درخواست/مجوز</a>
+                                             <!----------under the menu-------->
+                                        <div class="collapse my-sidebar-menu-collapse" id="collapse-menu4">
+                                            <ul class="my-sidebar-menu-collapse-ul">
+                                                <li class="my-sidebar-menu-collapse-li">
+                                                    <a href="#" class="my-sidebar-menu-collapse-a">ارسال/پیگیری درخواست دانشجو</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <!----------under the menu-------->
                                         </li>
-                                        <li class="my-sidebar-menu-li">
-                                            <a href="" class="my-sidebar-menu-a">ارزشيابي استاد</a>
+                                        <li>
+                                            <a href="" class="menu-color my-sidebar-menu-li collapsed d-block" onclick="toggleStyle()" data-bs-toggle="collapse" data-bs-target="#collapse-menu5">ارزشيابي استاد</a>
+                                             <!----------under the menu-------->
+                                        <div class="collapse my-sidebar-menu-collapse" id="collapse-menu5">
+                                            <ul class="my-sidebar-menu-collapse-ul">
+                                                <li class="my-sidebar-menu-collapse-li">
+                                                    <a href="#" class="my-sidebar-menu-collapse-a">ارزشیابی استاد در نیمسال جاری</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <!----------under the menu-------->
                                         </li>
-                                        <li class="my-sidebar-menu-li">
-                                            <a href="" class="my-sidebar-menu-a">مديريت امور خوابگاه ها</a>
+                                        <li>
+                                            <a href="" class="menu-color my-sidebar-menu-li collapsed d-block"  onclick="toggleStyle()" data-bs-toggle="collapse" data-bs-target="#collapse-menu6">مديريت امور خوابگاه ها</a>
+                                             <!----------under the menu-------->
+                                        <div class="collapse my-sidebar-menu-collapse" id="collapse-menu6">
+                                            <ul class="my-sidebar-menu-collapse-ul">
+                                                <li class="my-sidebar-menu-collapse-li">
+                                                    <a href="#" class="my-sidebar-menu-collapse-a">ثبت نام تکی</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <!----------under the menu-------->
                                         </li>
                                     </ul>
                                   </div>
@@ -92,23 +158,89 @@
                           <input type="search" placeholder="جستجو " class="my-sidebar-search-box">
                     </div>
                     <ul class="my-sidebar-menu">
-                        <li class="my-sidebar-menu-li">
-                            <a href="" class="my-sidebar-menu-a">برنامه ريزي آموزشي نيمسال تحصيلي</a>
+                        <li>
+                            <a href="#"  class="menu-color my-sidebar-menu-li collapsed d-block"  onclick="toggleStyle()" data-bs-toggle="collapse" data-bs-target="#collapse-menu1">برنامه ريزي آموزشي نيمسال تحصيلي</a>
+                             <!----------under the menu-------->
+                        <div class="collapse my-sidebar-menu-collapse" id="collapse-menu1">
+                            <ul class="my-sidebar-menu-collapse-ul">
+                                <li class="my-sidebar-menu-collapse-li">
+                                    <a href="#" class="my-sidebar-menu-collapse-a">جستجوی کلاس درس های ارائه شده</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!----------under the menu-------->
                         </li>
-                        <li class="my-sidebar-menu-li">
-                            <a href="" class="my-sidebar-menu-a">ثبت نام دروس دانشجو</a>
+                        <li>
+                            <a href="" class="menu-color my-sidebar-menu-li collapsed d-block"  onclick="toggleStyle()" data-bs-toggle="collapse" data-bs-target="#collapse-menu2">ثبت نام دروس دانشجو</a>
+                             <!----------under the menu-------->
+                        <div class="collapse my-sidebar-menu-collapse" id="collapse-menu2">
+                            <ul class="my-sidebar-menu-collapse-ul">
+                                <li class="my-sidebar-menu-collapse-li">
+                                    <a href="#" class="my-sidebar-menu-collapse-a">مشاهده آخرین وضعیت ثبت نام</a>
+                                </li>
+                                <li class="my-sidebar-menu-collapse-li mt-4">
+                                    <a href="#" class="my-sidebar-menu-collapse-a ">مدیریت مالی نیمسال های تحصیلی دانشجو</a>
+                                </li>
+                                <li class="my-sidebar-menu-collapse-li mt-4">
+                                    <a href="#" class="my-sidebar-menu-collapse-a ">مدیریت پرداخت ها</a>
+                                </li>
+                                <li class="my-sidebar-menu-collapse-li mt-4">
+                                    <a href="#" class="my-sidebar-menu-collapse-a ">ارسال درخواست اعتراض به نمره در نیمسال جاری</a>
+                                </li>
+                                <li class="my-sidebar-menu-collapse-li mt-4">
+                                    <a href="#" class="my-sidebar-menu-collapse-a ">مشاهده کارنامه دانشجویی</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!----------under the menu-------->
                         </li>
-                        <li class="my-sidebar-menu-li">
-                            <a href="" class="my-sidebar-menu-a">صندوق رفاه دانشجویی</a>
+                        <li>
+                            <a href="" class="menu-color my-sidebar-menu-li collapsed d-block"  onclick="toggleStyle()" data-bs-toggle="collapse" data-bs-target="#collapse-menu3">صندوق رفاه دانشجویی</a>
+                             <!----------under the menu-------->
+                        <div class="collapse my-sidebar-menu-collapse" id="collapse-menu3">
+                            <ul class="my-sidebar-menu-collapse-ul">
+                                <li class="my-sidebar-menu-collapse-li">
+                                    <a href="#" class="my-sidebar-menu-collapse-a">درخواست/پیگیری تسهیلات</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!----------under the menu-------->
                         </li>
-                        <li class="my-sidebar-menu-li">
-                            <a href="" class="my-sidebar-menu-a">درخواست/مجوز</a>
+                        <li>
+                            <a href="" class="menu-color my-sidebar-menu-li collapsed d-block"  onclick="toggleStyle()" data-bs-toggle="collapse" data-bs-target="#collapse-menu4">درخواست/مجوز</a>
+                             <!----------under the menu-------->
+                        <div class="collapse my-sidebar-menu-collapse" id="collapse-menu4">
+                            <ul class="my-sidebar-menu-collapse-ul">
+                                <li class="my-sidebar-menu-collapse-li">
+                                    <a href="#" class="my-sidebar-menu-collapse-a">ارسال/پیگیری درخواست دانشجو</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!----------under the menu-------->
                         </li>
-                        <li class="my-sidebar-menu-li">
-                            <a href="" class="my-sidebar-menu-a">ارزشيابي استاد</a>
+                        <li>
+                            <a href="" class="menu-color my-sidebar-menu-li collapsed d-block" onclick="toggleStyle()" data-bs-toggle="collapse" data-bs-target="#collapse-menu5">ارزشيابي استاد</a>
+                             <!----------under the menu-------->
+                        <div class="collapse my-sidebar-menu-collapse" id="collapse-menu5">
+                            <ul class="my-sidebar-menu-collapse-ul">
+                                <li class="my-sidebar-menu-collapse-li">
+                                    <a href="#" class="my-sidebar-menu-collapse-a">ارزشیابی استاد در نیمسال جاری</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!----------under the menu-------->
                         </li>
-                        <li class="my-sidebar-menu-li">
-                            <a href="" class="my-sidebar-menu-a">مديريت امور خوابگاه ها</a>
+                        <li>
+                            <a href="" class="menu-color my-sidebar-menu-li collapsed d-block"  onclick="toggleStyle()" data-bs-toggle="collapse" data-bs-target="#collapse-menu6">مديريت امور خوابگاه ها</a>
+                             <!----------under the menu-------->
+                        <div class="collapse my-sidebar-menu-collapse" id="collapse-menu6">
+                            <ul class="my-sidebar-menu-collapse-ul">
+                                <li class="my-sidebar-menu-collapse-li">
+                                    <a href="#" class="my-sidebar-menu-collapse-a">ثبت نام تکی</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!----------under the menu-------->
                         </li>
                     </ul>
                   </div>
@@ -134,7 +266,7 @@
                                     </div>
                                 </div>
                                </div>
-                               <a class="my-main-top-card-border">مشاهده جزئیات</a>
+                               <a href="#" class="my-main-top-card-border">مشاهده جزئیات</a>
                             </div>
                         </div>
                         <div class="col-xl-3 col-lg-6 col-md-6">
@@ -152,7 +284,7 @@
                                      </div>
                                  </div>
                                 </div>
-                                <a class="my-main-top-card-border">مشاهده جزئیات</a>
+                                <a href="#" class="my-main-top-card-border">مشاهده جزئیات</a>
                              </div>
                         </div>
                         <div class="col-xl-3 col-lg-6 col-md-6">
@@ -170,7 +302,7 @@
                                      </div>
                                  </div>
                                 </div>
-                                <a class="my-main-top-card-border">مشاهده جزئیات</a>
+                                <a href="#" class="my-main-top-card-border">مشاهده جزئیات</a>
                              </div>
                         </div>
                         <div class="col-xl-3 col-lg-6 col-md-6">
@@ -188,11 +320,12 @@
                                      </div>
                                  </div>
                                 </div>
-                                <a class="my-main-top-card-border">مشاهده جزئیات</a>
+                                <a href="#" class="my-main-top-card-border">مشاهده جزئیات</a>
                              </div>
                         </div>
                     </div>
                     <!--------------LITTLE CARDS------------>
+                    <!--------------BIG CARDS--------------->
                 </div>
             </div>
             <!------------MAIN-------------->
