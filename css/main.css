@@ -130,7 +130,7 @@ a:hover{
 }
 
 .my-sidebar-nav{
-    height: 85vh;
+    min-height: 85vh;
     background-color: white;
     background-position: center;
     background-size: cover;
@@ -163,7 +163,7 @@ a:hover{
 /*SIDEBAR*/
 
 .my-sidebar{
-    height: 85vh;
+    min-height: 84vh;
     background-color: white;
     background-position: center;
     background-size: cover;
@@ -177,6 +177,34 @@ a:hover{
     border: 2px solid #000080;
     border-radius: 10px;
     padding: 5px;
+}
+
+@media(max-width:768px){
+    .my-sidebar-search-box{
+        width: 70px;
+    }
+
+    .my-sidebar-menu-li{
+        font-size: 14px;
+    }
+
+    .my-sidebar-menu-collapse-a{
+        font-size: 14px;
+    }
+}
+
+@media(max-width:426px){
+    .my-sidebar-search-box{
+        width: auto;
+    }
+
+    .my-sidebar-menu-li{
+        font-size: 16px;
+    }
+
+    .my-sidebar-menu-collapse-a{
+        font-size: 16px;
+    }
 }
 
 .my-sidebar-search-icon{
@@ -203,18 +231,17 @@ a:hover{
     border-radius: 20px;
     margin-top: 20px;
     transition: all 0.7s;
+    color: #000080;
 }
 
 .my-sidebar-menu-li:hover{
     background-color: #000080;
+    color: white;
 
 }
 
-.my-sidebar-menu-a{
-    color: #000080;
-}
-
-.my-sidebar-menu-li:hover .my-sidebar-menu-a{
+.my-menu-after-click{
+    background-color: #000080;
     color: white;
 }
 
@@ -228,6 +255,25 @@ a:hover{
         font-size: 14px;
     }
 }
+.my-sidebar-menu-collapse{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.my-sidebar-menu-collapse-ul{
+    list-style: none;
+}
+
+.my-sidebar-menu-collapse-a{
+    color: #6495ed;
+    padding: 10px;
+    border-radius: 20px;
+    transition: all 0.7s;
+}
+
+.my-sidebar-menu-collapse-a:focus{
+    color: #444;
+}
 /*SIDEBAR*/
 /*MAIN*/
 
@@ -235,7 +281,7 @@ a:hover{
     background-color: white;
     box-shadow: -5px 7px 25px #999;
     border-radius: 10px;
-    height: 84vh;
+    min-height: 84vh;
     padding: 10px 10px;
 }
 
@@ -259,6 +305,11 @@ a:hover{
     margin-top: 25px;
     padding-top: 15px;
     color: #000080;
+    transition: all 0.5s;
+}
+
+.my-main-top-card-border:hover{
+    color: #6495ed;
 }
 /*MAIN*/
 
