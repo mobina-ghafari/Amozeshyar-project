@@ -345,5 +345,14 @@ a:hover{
     border:1px solid #000080;
     color: #6495ed;
 }
+
+.my-main-bottom-card-table-a{
+    background-color: #000080;
+    color: white;
+}
+
+.my-main-bottom-card-table-a:hover{
+    background-color: #6495ed;
+}
 /*MAIN*/
 
