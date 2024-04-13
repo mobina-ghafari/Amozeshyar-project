@@ -311,5 +311,39 @@ a:hover{
 .my-main-top-card-border:hover{
     color: #6495ed;
 }
+
+.my-main-bottom-card{
+    background-color: white;
+    box-shadow: -1px 1px 3px #999;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.my-main-bottom-card-h{
+    color: #000080;
+}
+
+.my-main-bottom-card-table{
+    margin-top: 30px;
+    
+
+}
+
+.my-main-bottom-card-table-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+    border:1px solid #000080;
+    color: #000080;
+}
+
+.my-main-bottom-card-table-btn:hover{
+    border:1px solid #000080;
+    color: #6495ed;
+}
 /*MAIN*/
 
